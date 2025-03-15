@@ -1,9 +1,7 @@
 # MarketNode-E-commerce-Suite
-
 MarketNode E-commerce Suite is a fully integrated MERN stack e-commerce platform designed to empower businesses with the essential tools to run an online store effectively. It features a comprehensive set of functionalities including product management, order processing, and secure payment integrations.
 
 # Features
-
 **Advanced Shopping Cart:** Enhanced shopping cart capabilities allowing for a seamless user experience.
 
 **Ratings & Reviews:** Users can rate products and leave reviews, enhancing customer trust.
@@ -17,8 +15,8 @@ MarketNode E-commerce Suite is a fully integrated MERN stack e-commerce platform
 **Secure Payment Processing:** Integration with Razorpay for reliable and secure transactions.
 
 # Quick Start Guide
+**Prerequisites**
 
-# Prerequisites
 1. MongoDB
 
 2. Node.js
@@ -28,48 +26,48 @@ MarketNode E-commerce Suite is a fully integrated MERN stack e-commerce platform
 4. Brevo account for email services
 
 # Installation
-1. Clone and Set Up:
+**1. Clone and Set Up:**
 
-git clone https://github.com/your-username/MarketNode-E-commerce.git
-cd MarketNode-E-commerce
-Configure Environment: Rename .env.example to .env and update the environment variables accordingly.
+       git clone https://github.com/your-username/MarketNode-E-commerce.git
+       cd MarketNode-E-commerce
+   
+**2. Configure Environment:** Rename .env.example to .env and update the environment variables accordingly.
 
-Install Dependencies:
+**3. Install Dependencies:**
 
-bash
-Copy
-npm install
-cd frontend
-npm install
-Run the Application:
+    npm install
+    cd frontend
+    npm install
+    
+**4. Run the Application:**
 
-bash
-Copy
-# To run both frontend and backend
-npm run dev
+    # To run both frontend and backend
+    npm run dev
 
-# To run backend only
-npm run server
-Seed the Database:
+    # To run backend only
+    npm run server
+    
+**5. Seed the Database:**
 
-bash
-Copy
-npm run data:import
-Build and Deployment
+    npm run data:import
+# Build and Deployment
 To build the application for production, run:
 
-bash
-Copy
-cd frontend
-npm run build
-Contributing
+    cd frontend
+    npm run build
+
+# Contributing
 We value contributions from the community. If you're interested in enhancing the features, follow these steps:
 
-Fork the Repository
-Create a Feature Branch (git checkout -b feature/AmazingFeature)
-Commit Your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-Sample User Logins
-Admin Dashboard: admin@admin.com (Password: admin123)
-Customer Login: john@email.com (Password: john123)
+# Fork the Repository
+1. Create a Feature Branch (git checkout -b feature/AmazingFeature)
+
+2. Commit Your Changes (git commit -m 'Add some AmazingFeature')
+
+3. Push to the Branch (git push origin feature/AmazingFeature)
+
+4. Open a Pull Request
+
+# Sample User Logins
+**Admin Dashboard:** admin@admin.com (Password: admin123)
+**Customer Login:** john@email.com (Password: john123)
