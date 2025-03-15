@@ -67,7 +67,3 @@ We value contributions from the community. If you're interested in enhancing the
 3. Push to the Branch (git push origin feature/AmazingFeature)
 
 4. Open a Pull Request
-
-# Sample User Logins
-**Admin Dashboard:** admin@admin.com (Password: admin123)
-**Customer Login:** john@email.com (Password: john123)
